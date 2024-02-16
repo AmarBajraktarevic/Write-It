@@ -486,7 +486,16 @@ color: #000000;
 
 
 
-
+.sidebar {
+  position: fixed;
+  width: 3px;
+  height: 100%;
+  left: 16%;
+  background-color: #f2f3f4;
+  opacity: 50%;
+  top: 0%;
+  
+  }
 
 
 
@@ -658,3 +667,64 @@ color: #000000;
   transform: translate(-50%, -50%);
 }
 
+.calendar {
+  text-decoration: none;
+  display: inline-block; /* Ensure the element respects its width and height */
+  position: fixed;
+  top: 11.5%;
+  padding: 5px; /* Add padding to create space around the text */
+  border: 1px solid transparent; /* Ensure the element takes up space even when transparent */
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  text-align: center; /* This line centers the text within the button */
+  /* Position relative for absolute positioning of pseudo-element */
+}
+
+.calendar::after {
+  content: ''; /* Required for pseudo-element */
+  position: fixed; /* Position relative to the .calendar element */
+  top: 10.4%; /* Position at the top of the button */
+  left: 0%; /* Position at the left of the button */
+  width: 208px; /* Take up the full width of the button */
+  height: 50px; /* Take up the full height of the button */
+  background-color: rgba(175, 174, 174, 0); /* Initial transparent background */
+  z-index: -1; /* Behind the text */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  font-family: "Fredoka", sans-serif;
+
+
+}
+
+
+
+.calendar:hover::after {
+  background-color: rgba(175, 174, 174, 0.1); /* Light opacity box on hover */
+}
+
+.bg-sidebar {
+  position: fixed;
+  top: 10%;
+  left: 0%;
+  width: 208px;
+  height: 700px;
+  background-color: rgba(175, 174, 174, 0.12);
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  border: #f2f3f4;
+  display: flex; /* Adding flexbox */
+  justify-content: center; /* Centering children horizontally */
+  align-items: center; /* Centering children vertically */
+}
+
+.calendarpic {
+  position: fixed;
+  top: 12.5%;
+  left: 3%;
+  width: 20px;
+  height: 20px;
+  opacity: 40%;
+}
