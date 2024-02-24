@@ -8,9 +8,6 @@ Made With React and Vite.
 - Planner X
 
 
--
--
--
--
--
+
+<div></div>
 ![](https://raw.githubusercontent.com/AmarBajraktarevic/portfolio/main/proj2.png)
