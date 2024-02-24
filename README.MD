@@ -1,7 +1,5 @@
 A Interactive Planner App named "Write'It". 
 
+Made With React and Vite.
 
-
-
-Made With React and Vite
-- Soon (NextJS and TailwindCSS)
+![](https://raw.githubusercontent.com/AmarBajraktarevic/portfolio/main/proj2.png)
