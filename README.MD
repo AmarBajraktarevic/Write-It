@@ -9,5 +9,4 @@ Made With React and Vite.
 
 
 
-<div></div>
 ![](https://raw.githubusercontent.com/AmarBajraktarevic/portfolio/main/proj2.png)
