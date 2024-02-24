@@ -7,5 +7,10 @@ Made With React and Vite.
 - Daily X 
 - Planner X
 
-#.
+
+
+
+
+
+
 ![](https://raw.githubusercontent.com/AmarBajraktarevic/portfolio/main/proj2.png)
