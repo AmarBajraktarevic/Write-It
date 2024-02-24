@@ -2,10 +2,10 @@
 Made With React and Vite.
 
 # Modern Styling
-✓ - Calendar
-X - Backend Work
-X - Daily
-X - Planner
+- Calendar ✓ 
+- Backend Work X
+- Daily X 
+- Planner X
 
 
 ![](https://raw.githubusercontent.com/AmarBajraktarevic/portfolio/main/proj2.png)
